@@ -3,10 +3,10 @@
 #include <UniversalTelegramBot.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "S"; //Enter wifi hotspot name// 
-const char* password = "123456789"; //Enter wifi hotspot password//
-#define BOTtoken "5937349344:AAF7Z1Zw1LBPTqg6WTtI4n6cU2wDVUhrtok" //Paste telegram BOT token//
-#define CHAT_ID "1650783203" //Paste Telegram chat ID//
+const char* ssid = ""; //Enter wifi hotspot name// 
+const char* password = ""; //Enter wifi hotspot password//
+#define BOTtoken "" //Paste telegram BOT token//
+#define CHAT_ID "" //Paste Telegram chat ID//
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 
